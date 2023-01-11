@@ -1,6 +1,6 @@
 export function Species({ name, language, averageLifespan }) {
   return (
-    <li>
+    <li className="li1">
       {name}
 
       <ul>

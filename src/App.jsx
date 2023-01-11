@@ -1,9 +1,11 @@
 import InfinitePeople from './people/InfinitePeople';
+import InfiniteSpecies from './species/InfiniteSpecies';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <InfinitePeople />
+      <InfiniteSpecies />
     </div>
   );
 }

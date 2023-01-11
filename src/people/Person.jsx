@@ -1,6 +1,6 @@
 export function Person({ name, hairColor, eyeColor }) {
   return (
-    <li>
+    <li className="li1">
       {name}
 
       <ul>

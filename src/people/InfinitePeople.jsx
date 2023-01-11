@@ -14,7 +14,7 @@ function InfinitePeople() {
   );
   console.log(data);
   if (isError) return <div>{error.toString()}</div>;
-  if (isLoading) return <div>{'Loading....'}</div>;
+  if (isLoading) return <div className="li1">Loading....</div>;
   return (
     <InfiniteScroll loadMore={fetchNextPage} hasMore={hasNextPage}>
       {data.pages.map((pageData) => {
